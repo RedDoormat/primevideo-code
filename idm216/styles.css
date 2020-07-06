@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+body {
+    background-color: #253340;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation */
+ul {
+    background-color: #111826;
+    color: white;
+    display: block;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline-block;
+    margin: 20px 0;
+    padding: 5px 10px 5px 10px;
+}
+
+/* Bottom Navigation */
+.navbar {
+    display: block;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 10px;
+    background-color: #111826;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.navbar a {
+    padding: 14px 10px;
+    text-decoration: none;
+}
+
+/* Bottom Icons */
+img {
+    width: 30px;
+    height: 30px;
+}
